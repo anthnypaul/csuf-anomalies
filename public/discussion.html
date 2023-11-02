@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUF Anomalies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne+Mono">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body class="bg-black-site text-white">
+    <div class="grid grid-cols-6"> <!--content wrapper-->
+        <div class="relative p-4">
+            <nav class="rounded-md text-center text-2xl bg-gray-100 p-4 pos-cen-left">
+                <div>
+                    <h1 class="transition-500 font-bold uppercase p-4 border-gray-200 hover:trans-zoom">
+                        <a href="home.html"> 
+                            <img src="img/csuf_anomalies_logo_white_outline.png" alt="csuf_anomalies_logo"> 
+                        </a>
+                    </h1>
+                </div>
+                <ul>
+                    <li class="rounded bg-black transition-500 hover:bg-green-trisha hover:trans-right">
+                        <a href="home.html">
+                            <span>Back to Home</span>
+                        </a>
+                    </li>
+                    <li class="rounded bg-black transition-500 hover:bg-green-trisha hover:trans-right">
+                        <a href="discussionForm.html">
+                            <span>Make a Post</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!-- end of nav bar -->
+
+        <main class ="px-16 py-6 col-span-5">
+            <div class="flex justify-end items-center space-x-2">
+                <span class="text-white">Welcome!</span>
+                <span id="userEmail" class="font-semibold ml-2"></span>
+                <button class="logout text-orange-700 btn border-orange-500 border-2 ml-2">Logout</button>
+            </div>
+
+            <header class="flex justify-center">
+                <img src="img/titles/discussion_title.png" alt="discussion_title">
+            </header>
+            
+            <div class="mt-12 border-b border-gray-400">
+                <h4 class="font-bold">Discussion Boards</h4>
+            </div>
+            <div id="discussionContainer" class="mt-8 text-gray-700 flex flex-col"></div>
+                <!--discussions go here -->
+        </main>
+</div>
+<!-- JavaScript-->
+<script src="bundle.js"></script>
+</body>
+</html>

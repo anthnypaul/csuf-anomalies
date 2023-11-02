@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne+Mono">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body class="bg-black-site flex items-center justify-center h-screen" style="background-image: url(img/space_png.png);">
+    
+    <div class="bg-gray-100 p-10 rounded shadow-lg max-w-md">
+        <h2 class="text-2xl font-semibold mb-6 text-center">What has the world seen?</h2>
+        <form id="addArticle">
+            <label> Article Headline or Title <br></label>
+            <input type="text" class="title border-2" placeholder="Title" required>
+            <label><br><br> Link to Article <br></label>
+            <input type="text" class="articleLink border-2" placeholder="Article Link" required>
+            <label><br><br> T.L.D.R. <br></label>
+            <textarea class="description border-2" placeholder="Create Post" rows="3" cols="25" required></textarea>
+            <label><br></label>
+            <button type="submit" class="bg-black text-white hover:bg-orange-paul hover:text-black transition-500 hover:trans-zoom text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+    </div>
+    <div ></div>
+    
+    
+</body>
+<!-- JavaScript-->
+<script src ="bundle.js"></script>
+</html>

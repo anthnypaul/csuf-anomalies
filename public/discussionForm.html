@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne+Mono">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body class="bg-black-site flex items-center justify-center h-screen" style="background-image: url(img/space_png.png);"> 
+    <div class="bg-gray-100 p-20 rounded shadow-lg max-w-md">
+        <h2 class="text-2xl font-semibold mb-6 text-center">What's happening?</h2>
+        <form id="addDiscussion" >
+            <label> Discussion Title <br></label>
+            <input type="text" class="title border-2" placeholder="Title" required>
+            <label><br><br> Discussion Post <br></label>
+            <textarea class="description border-2" placeholder="Brain Juice Goes Here" rows="10" cols="30" required></textarea>
+            <label><br></label>
+            <button type="submit" class="bg-black text-white hover:bg-green-trisha hover:text-black transition-500 hover:trans-zoom font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+    </div>
+</body>
+<!-- JavaScript-->
+<script src ="bundle.js"></script>
+</html>

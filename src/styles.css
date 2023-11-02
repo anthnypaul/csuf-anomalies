@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
+
+.post {
+   @apply w-96 bg-gray-200 rounded-lg shadow-md max-w-md my-6
+}
+
+.post:hover {
+    @apply cursor-pointer transition-all transform hover:scale-105 delay-300 shadow-lg bg-black text-white 
+}
+
+.post-author {
+    @apply m-1 text-xs
+}
+
+.post-title {
+    @apply decoration-solid m-1 font-bold text-3xl
+}
+
+.post-description {
+    @apply m-1 truncate
+}
+
+.post-image {
+    @apply w-96 h-96 object-contain bg-gray-300 rounded-lg
+}

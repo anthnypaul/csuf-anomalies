@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUF Anomalies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne+Mono">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body class="bg-black-site text-white">
+    <div class="grid grid-cols-6"> <!--content wrapper-->
+        <div class="relative p-4">
+            <nav class="rounded-md text-center text-2xl bg-gray-100 p-4 pos-cen-left">
+                <div>
+                    <h1 class="transition-500 font-bold uppercase p-4 border-gray-200 hover:trans-zoom">
+                        <a href="home.html"> 
+                            <img src="img/csuf_anomalies_logo_white_outline.png" alt="csuf_anomalies_logo"> 
+                        </a>
+                    </h1>
+                </div>
+                <ul>
+                    <li class="rounded bg-black transition-500 hover:bg-red hover:trans-right">
+                        <a href="home.html">
+                            <span>Back to Home</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!-- end of nav bar -->
+
+        <main class ="px-16 py-6 col-span-5">
+            <div class="flex justify-end items-center space-x-2">
+                <span class="text-gray-700">Welcome!</span>
+                <span id="userEmail" class="font-semibold ml-2"></span>
+                <button class="logout text-orange-700 btn border-orange-500 border-2 ml-2">Logout</button>
+            </div>
+
+            <header class="flex justify-center">
+                <img src="img/titles/about_title.png" alt="about_title">
+            </header>
+            <div>
+                <h4 class="text-center font-bold text-4xl py-2"><br>Mission Statement</h4>
+                <div class="text-center text-2xl text-gray-100 rounded-md">
+                    <span><br>
+                          Have you ever found yourself on campus during a bad time of night?<br><br>
+                          Maybe during this time of night, you see a strange creature? Maybe hear a horrifying shriek?<br><br>
+                          Now that you've witnessed it, you'll want to talk about it. But who to tell?<br><br>
+                          That's where we, CSUF Anomalies, come in!<br><br>
+                          We provide a place for any and every person from our campus to report their strange sightings.<br><br>
+                          Allow us to give you a space to report the dark happenings upon this campus!<br>
+                          <br></span>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-center font-bold text-4xl border-b py-2">Meet the CSUF Anomalies Squad</h4>
+                <div class="flex flex-row text-center text-2xl bg-black rounded-md">
+                    <a href="bao.html" class="transition-500 hover:trans-zoom p-4">
+                        <img src="img/team/bao_block.png">
+                    </a>
+                    <a href="derek.html" class="transition-500 hover:trans-zoom p-4">
+                        <img src="img/team/derek_block.png">
+                    </a>
+                    <a href="paul.html" class="transition-500 hover:trans-zoom p-4">
+                        <img src="img/team/paul_block.png">
+                    </a>
+                    <a href="trisha.html" class="transition-500 hover:trans-zoom p-4">
+                        <img src="img/team/trisha_block.png">
+                    </a>
+                </div>
+            </div>
+        </main>
+</div>
+<!-- JavaScript-->
+<script src="bundle.js"></script>
+</body>
+</html>
